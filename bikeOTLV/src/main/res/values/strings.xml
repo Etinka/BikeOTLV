@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BikeOTLV</string>
+    <string name="image">image</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="map">מפה</string>
+    <string name="favs">מועדפות</string>
+    <string name="list">רשימה</string>
+    <string name="textview">TextView</string>
+    <string name="availableBikes">אופניים פנויים:</string>
+    <string name="availablePoles">עמדות פנויות:</string>
+    <string name="loadingStations">טוען תחנות&#8230;</string>
+    <string name="noFavs">אין תחנות מועדפות.</string>
+    <string name="emptyString"></string>
+    <string name="title">title</string>
+    <string name="spWhere">איפה התקלה?</string>
+    <string name="mailBodyStationStart">ברצוני לדווח על תקלה בתחנה שמספרה</string>
+    <string name="mailSubjectBike">דווח על זוג אופניים תקול בתחנה מספר</string>
+    <string name="reportStation">דיווח על תקלה בתחנה מספר</string>
+    <string name="reportBike">דיווח על אופניים תקולים</string>
+    <string name="mailBodyBikeStart">ברצוני לדווח על תקלה בזוג אופניים הנמצאים בתחנה שמספרה</string>
+    <string name="noInternetConnection">רענון התחנות דורש חיבור פעיל לאינטרנט&#8230;</string>
+    <string name="noInternetConnectionForSplash">לא נמצא חיבור פעיל לאינטרנט. על מנת לקבל מידע מעודכן על התחנות יש להתחבר לאינטרנט ולרענן את התחנות.</string>
+    <string name="noInternetConnectionForSplashFirstLaunch">לא נמצא חיבור פעיל לאינטרנט. על מנת להשתמש באפליקציה, נדרש לפחות חיבור ראשוני לאינטרנט.\nיש להתחבר ולהריץ מחדש את האפליקציה.\n\nתודה וסליחה על אי הנוחות הזמנית....</string>
+    <string name="wehavesomedificulties">אנו חווים תקלה טכנית בקבלת רשימת התחנות ועדכונן. אנא נסו שוב מאוחר יותר. \n\nתודה וסליחה על אי הנוחות הזמנית&#8230;</string>
+    <string name="reportEndOfEmail">This mail was sent via Bikeo:TLV</string>
+
+    <string-array name="reportArray">
+        <item>תחנה</item>
+        <item>אופניים</item>
+    </string-array>
+
+    <string name="refresh">רענן תחנות</string>
+
+    <string name="cancel">ביטול</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_list">רשימת תחנות</string>
+    <string name="List">רשימה</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="loading">Loading stations&#8230;</string>
+    <string name="justloading">טוען&#8230;</string>
+    <string name="title_activity_aplash">SplashActivity</string>
+    <string name="resources_name">Resources</string>
+    <string name="favourites">מועדפות</string>
+    <string name="title_activity_fav">FavActivity</string>
+    <string name="avalBikes">אופניים פנויים: </string>
+    <string name="avalPoles">עמדות פנויות: </string>
+    <string name="directions">Directions</string>
+    <string name="btnMap">מפה</string>
+    <string name="btnOK">אישור</string>
+    <string name="btnDirections">הנחיות</string>
+    <string name="btnReport">תקלה</string>
+
+    <string-array name="spChooseBikeOrStation">
+        <item>תחנה</item>
+        <item>אופניים</item>
+    </string-array>
+
+
+    <string name="mailSubjectToUs">BikeO: TLV Feedback</string>
+    <string name="warning">שים לב</string>
+    <string name="noGPSContent">על מנת לאתר את מיקומך ותחנות קרובות, אנא הפעל GPS</string>
+    <string name="noGPSTitle">שירותי מיקום</string>
+    <string name="ok">אישור</string>
+    <string name="currentLocationUnknown">מיקום נוכחי לא ידוע</string>
+    <string name="informationOutDated">המידע המוצג נכון ללפני חצי שעה</string>
+    <string name="inActiveStation">תחנה לא פעילה</string>
+    <string name="endOfMail">This mail was sent via BikeO:TLV</string>
+    <string name="refreshStations">רענן תחנות</string>
+    <string name="feedback">צור קשר</string>
+    <string name="sortListName">מיין לפי שם</string>
+    <string name="sortListDistance">מיין לפי מרחק</string>
+    <string name="mailSubjectStation">דווח על תקלה בתחנה מספר</string>
+    <string name="mailBodyStationAddress"> וכתובתה </string>
+
+    <string name="dialogFavSubject">תחנות מועדפות</string>
+    <string name="dialogFavBody">אין כרגע תחנות מועדפות.\nלהוספת תחנה מועדפת, לחץ על הכוכב הריק בחלונית הפרטים של התחנה.</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

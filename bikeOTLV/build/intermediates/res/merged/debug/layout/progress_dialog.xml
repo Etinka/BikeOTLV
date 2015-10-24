@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:text="skldfjs\nlkdfj"
+        android:textColor="@color/app_green"
+        android:textSize="@dimen/loading_dialog_txt_size"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout><!-- From: file:/Users/eti/AndroidStudioProjects/BikeOTLV/bikeOTLV/src/main/res/layout/progress_dialog.xml -->

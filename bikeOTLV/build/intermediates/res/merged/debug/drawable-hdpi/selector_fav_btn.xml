@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+      <item android:drawable="@drawable/star_green" android:state_checked="true" android:state_pressed="true"/>
+    <item android:drawable="@drawable/star_green" android:state_checked="true" android:state_focused="false"/>
+    <item android:drawable="@drawable/star_gray" android:state_checked="false" android:state_pressed="true"/>
+    <item android:drawable="@drawable/star_gray" android:state_checked="false" android:state_focused="false"/>
+
+</selector>
+<!-- From: file:/Users/eti/AndroidStudioProjects/BikeOTLV/bikeOTLV/src/main/res/drawable-hdpi/selector_fav_btn.xml -->

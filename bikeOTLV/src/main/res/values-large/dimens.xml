@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Large screen margins, per the Android Design guidelines. -->
+    <dimen name="list_txt_size">30sp</dimen>
+    <dimen name="list_sub_txt_size">20sp</dimen>
+    <dimen name="fav_btn_size">60dp</dimen>
+    <dimen name="alert_icon_size">50dp</dimen>
+    <dimen name="alert_view_min_width">600dp</dimen>
+
+    <integer name="map_marker_size_multiplier">50</integer>
+
+    <dimen name="loading_dialog_txt_size">25sp</dimen>
+    <dimen name="alert_title_size">30sp</dimen>
+    <dimen name="alert_txt_size">25sp</dimen>
+    <dimen name="tab_txt_size">25sp</dimen>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/eti/AndroidStudioProjects/BikeOTLV/bikeOTLV/build/intermediates/exploded-aar/BikeOTLV/SunshadeUtilitiesAndroid/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="163ddfdcb5a4d91fae730aa5a6fc8b1c7bf98fa3">
+        <dex dex="/Users/eti/AndroidStudioProjects/BikeOTLV/bikeOTLV/build/intermediates/pre-dexed/debug/classes-c1da513ead07e3de2f800e620c813a3a28d8e0f3.jar" />
+    </item>
+
+</items>

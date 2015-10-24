@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ToggleButton
+        android:id="@+id/toggleFavBtnDetails"
+        android:layout_width="@dimen/fav_btn_size"
+        android:layout_height="@dimen/fav_btn_size"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_fav_btn"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textOff="@string/emptyString"
+        android:textOn="@string/emptyString" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/toggleFavBtnDetails"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/stationName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/textview"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/list_txt_size" />
+
+        <TextView
+            android:id="@+id/availableBikes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/textview"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/list_sub_txt_size" />
+
+        <TextView
+            android:id="@+id/availablePoles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/textview"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/list_sub_txt_size" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+include ':bikeOTLV'
+
+include ':SunshadeUtilitiesAndroid'
+project(':SunshadeUtilitiesAndroid').projectDir = new File(settingsDir, '../SunshadeUtilitiesAndroid/library')
+

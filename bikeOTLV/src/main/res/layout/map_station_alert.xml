@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_gray"
+    android:gravity="center"
+    android:minWidth="@dimen/alert_view_min_width"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:text="@string/title"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/alert_title_size"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txtInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20.0dip"
+            android:layout_marginRight="10.0dip"
+            android:text="@string/textview"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/alert_txt_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left" >
+
+            <ImageButton
+                android:id="@+id/btnOk"
+                android:layout_width="@dimen/alert_icon_size"
+                android:layout_height="@dimen/alert_icon_size"
+                android:layout_marginLeft="30.0dip"
+                android:background="@null"
+                android:contentDescription="@string/image"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ok" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+
+   <!--          <ImageButton
+                android:id="@+id/btnFav"
+                android:layout_width="@dimen/alert_icon_size"
+                android:layout_height="@dimen/alert_icon_size"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:background="@drawable/star_gray"
+                android:contentDescription="@string/image"
+                android:scaleType="fitCenter" /> -->
+
+    <ToggleButton
+        android:id="@+id/toggleFavBtnDetails"
+        android:layout_width="@dimen/alert_icon_size"
+        android:layout_height="@dimen/alert_icon_size"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:background="@drawable/selector_fav_btn"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textOff="@string/emptyString"
+        android:textOn="@string/emptyString" />
+
+            <ImageButton
+                android:id="@+id/btnReport"
+                android:layout_width="@dimen/alert_icon_size"
+                android:layout_height="@dimen/alert_icon_size"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="20.0dip"
+                android:background="@null"
+                android:contentDescription="@string/image"
+                android:scaleType="fitCenter"
+                android:src="@drawable/report" />
+
+            <ImageButton
+                android:id="@+id/btnDirections"
+                android:layout_width="@dimen/alert_icon_size"
+                android:layout_height="@dimen/alert_icon_size"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="20.0dip"
+                android:background="@null"
+                android:contentDescription="@string/image"
+                android:scaleType="fitCenter"
+                android:src="@drawable/navigate" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
