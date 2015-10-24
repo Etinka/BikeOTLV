@@ -48,7 +48,7 @@ public class SplashScreen extends Activity {
 		protected void onPostExecute(Boolean result) 
 		{
 			if (result) {
-		/*		if (appResources.getStations().size()==0) {
+				if (appResources.getStations().size()==0) {
 					UIUtils.getCustomAppDialog(SplashScreen.this, null, SplashScreen.this.getResources().getString(R.string.wehavesomedificulties), SplashScreen.this.getResources().getString(R.string.ok), null, false, new CustomDialogInterface() {
 
 						@Override
@@ -57,10 +57,10 @@ public class SplashScreen extends Activity {
 						}
 					}).show();
 				}
-				else{*/
+				else{
 					startActivity(new Intent(SplashScreen.this, MainActivity.class));
 					finish();
-//				}
+				}
 			}
 			else{
 				if(appResources.getStations().size() == 0){
